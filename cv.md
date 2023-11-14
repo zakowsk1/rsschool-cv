@@ -2,14 +2,12 @@
 
 ## Contact Information
 
-## Brief Self-Introduction
+## About me
 
 ## Skills
 
-## Code Examples
+## Code Example
 
-### Work Experience
-
-## Education (including completed courses and training)
+## Education
 
 ## Languages
