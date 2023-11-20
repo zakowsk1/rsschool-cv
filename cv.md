@@ -57,5 +57,5 @@ function Bogosort(a) {
 
 ## Languages
 
-Russian (native)
+Russian (native) /
 English (B2)
