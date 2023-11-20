@@ -46,7 +46,7 @@ function Bogosort(a) {
 }
 ```
 
-### Education
+## Education
 
 * Processing
   * Federal State Budget-Financed Educational Institution of Higher Education The Bonch-Bruevich Saint Petersburg State University of Telecommunications (Student)
@@ -55,7 +55,7 @@ function Bogosort(a) {
   * Sololearn: Web-developmet course
   * Sololearn: Javascript course
 
-### Languages
+## Languages
 
 Russian (native)
 English (B2)
