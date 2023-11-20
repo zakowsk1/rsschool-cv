@@ -50,7 +50,7 @@ function Bogosort(a) {
 
 * Processing
   * Federal State Budget-Financed Educational Institution of Higher Education The Bonch-Bruevich Saint Petersburg State University of Telecommunications (Student)
-    * RS School Javascript stage #1
+  * RS School Javascript stage #1
 * Finished
   * Sololearn: Web-developmet course
   * Sololearn: Javascript course
