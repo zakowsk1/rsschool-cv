@@ -31,14 +31,14 @@
   <pre class="code-example">
 function Bogosort(a) {
     function isSorted(a) {
-        for(let i = 1; i &lt a; a.length; i++)
-            if (a[i-1] &gt a[i])
+        for(let i = 1; i &lt; a; a.length; i++)
+            if (a[i-1] &gt; a[i])
                 return false;
         return true;
     };
 
     function shuffle(a) {
-        for (let i = a.length - 1; i &gt 0; i--) {
+        for (let i = a.length - 1; i &gt; 0; i--) {
             let j = Math.floor(Math.random() * (i + 1));
             [a[i], a[j]] = [a[j], a[i]];
         }
