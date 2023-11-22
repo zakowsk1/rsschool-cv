@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vladislav Zakorukin - CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Vladislav Zakorukin</h1>
+  <h2>Contact Information</h2>
+  <ul class="none">
+    <li class="contact-item"><strong>GitHub:</strong> <a href="https://github.com/zakowsk1">zakowsk1</a></li>
+    <li class="contact-item"><strong>Discord:</strong> <a href="https://discord.com/users/peroxidee">peroxidee</a></li>
+  </ul>
+
+  <h2>About me</h2>
+  <p>Beginner frontend developer. I'm in my 3rd year of university, taking courses and learning programming on my own.</p>
+
+  <h2>Skills</h2>
+  <ul class="none">
+    <li>HTML 5</li>
+    <li>CSS 3</li>
+    <li>JavaScript</li>
+    <li>Git/GitHub</li>
+  </ul>
+
+  <h2>Code Example</h2>
+  <pre class="code-example">
+function Bogosort(a) {
+    function isSorted(a) {
+        for(let i = 1; i &lt; a; a.length; i++)
+            if (a[i-1] &gt; a[i])
+                return false;
+        return true;
+    };
+
+    function shuffle(a) {
+        for (let i = a.length - 1; i &gt; 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
+
+   function sort(a) {
+        while(!isSorted(a))
+            a = shuffle(a);
+        return a;
+    }
+
+    return sort(a);
+}
+  </pre>
+
+  <h2>Education</h2>
+  <ul class="none">
+    <li>Processing
+      <ul>
+        <li>Federal State Budget-Financed Educational Institution of Higher Education <br>
+            The Bonch-Bruevich Saint Petersburg State University of Telecommunications (Student)</li>
+        <li>RS School Javascript stage #1</li>
+      </ul>
+    </li>
+    <li>Finished
+      <ul>
+        <li>Sololearn: Web-developmet course</li>
+        <li>Sololearn: Javascript course</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Languages</h2>
+  <ul class="none">
+    <li>Russian (native)</li>
+    <li>English (B2)</li>
+  </ul>
+</body>
+
+</html>
